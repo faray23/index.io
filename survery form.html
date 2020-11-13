@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form.</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 id="title">Faray Survey Form!</h1>
+    <p id="Description">Thank you for taking the time to help us improve the platform.</p>
+   <div><Form id="Survey-Form">
+        <label id="name-label" for="Name"> Name</label><br>
+        <input type="text" name="name" id="name"  placeholder=" Enter Your Name" size="50"  required><br><br>
+        <label id="email-label"   for="Email">  Email</label><br>
+        <input type="email" name="Email" id="email"  placeholder="Enter Your Email" size="50"   required><br><br>
+        <label id="number-label"    for="Number">Age(Optional)</label><br>
+        <input type="number" name="Age" id="Number" min="10" max="99" placeholder="Enter Your Age"  maxlength="5000000000000000000px"    ><br><br>
+        <p>Which option descibe your current role?</p>
+        <label for="Dropdownlist"></label>
+        <select name="Dropdown"  id="Dropdown" size=".5" >
+<option value="Student" >Student</option>
+<option value="Full time job">Full Time Job</option>
+<option value="Full Time learner">Full time learner</option>
+<option value="Prefer not to say">Prefer not to say</option>
+<option value="Other">Other</option>
+
+</select><br><br>
+ <label for="Radio Buttons">Would you Recommend Free code camp to your Friends.</label><br><br>
+ <input type="radio" name="user" id="Definitely">
+ <label for="Definitely">Definitely</label>
+ <input type="radio" name="user" id="Maybe" >
+ <label for="Maybe">Maybe</label>
+  <input type="radio" name="user" id="Not sure" >
+ <label for="Not sure">Not sure</label><br>
+ <p> Would You like To see Improved? (Select fields)</p>
+ 
+ <div>
+ <input type="checkbox" name="Front-end" value="Value">
+ <label for="Front end Projects">Front-end Projects</label><br>
+ 
+ 
+ 
+ 
+ <input type="checkbox" name="back-end" value="Value">
+ <label for="Back end Projects">Back-end Projects</label><br>
+ 
+ 
+ <input type="checkbox" name="data" value="Value">
+ <label for="Data Visualization">Data Visualization</label><br>
+ 
+ 
+ <input type="checkbox" name="Front-end" value="Value">
+ <label for="Front-end Projects">Front-end Projects</label><br>
+ 
+ 
+ 
+ <input type="checkbox" name="Html" value="Value">
+ <label for="Html">HTML</label><br>
+ 
+ 
+ 
+ <input type="checkbox" name="CSS" value="Value">
+ <label for="CSS">CSS</label><br>
+ 
+ 
+ 
+ <input type="checkbox" name="JAVA" value="Value"  >
+ <label for="JAVA">JAVA</label><br><br></div>
+ <p>Tell us your thoughts.</p>
+
+ <textarea name="Enter your Comments"  id="id" cols="70" rows="10">Enter Your thoughts.     </textarea>
+
+
+
+        
+        
+
+
+
+
+
+ <br>      <center> <label for="Submit"></label>
+
+        <input type="submit" name="Submit" id="submit" class="submit-button" >
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Form></div> 
+</body>
+</html>

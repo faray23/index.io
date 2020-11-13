@@ -1,0 +1,80 @@
+body{
+background-color: rgb(138, 136, 136);
+}
+#title{
+color: black;
+font-family: 'Times New Roman', Times, serif;
+
+background-color: rgb(216, 252, 216);
+text-align: center;
+padding: 20px;
+font-size:50px;
+width: fit-content;
+border: 3px solid black ;
+}
+#Description{
+font-size: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-bottom:3px solid black;
+width: fit-content;
+
+
+}
+div{
+
+background-color: rgb(255, 252, 248);
+width: fit-content;
+border: 3px solid black;
+font-size: 30px;
+margin: 10px 10px 10px 10px;
+
+
+
+}
+#name{
+margin:10px 10px 10px 10px;
+    padding: 10px;
+}
+
+
+#email{
+    margin:10px 10px 10px 10px;
+    padding: 10px;
+    
+}
+ #Number{   margin:10px 10px 10px 80px;
+    padding: 10px;
+}
+   #Dropdown{ margin:10px 10px 10px 80px;
+    padding: 10px;
+}
+    #Definitely{
+        
+        margin:10px 10px 10px 10px;
+    padding: 10px;
+    }
+    
+
+    .submit-button {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        background-color: aqua; 
+        color: inherit;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+
+
+}
+    label{
+margin:10px;
+text-align: justify;
+color: rgba(222, 184, 135, 0.062);
+
+
+
+
+
+    }
